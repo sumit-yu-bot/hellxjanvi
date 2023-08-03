@@ -1,4 +1,4 @@
-tuᴏclass TEXTS:
+class TEXTS:
     ABOUT_SONG = (
         "**💬 Title:** __{0}__ \n\n"
         "**📺 Channel:** __{1}__ \n"
