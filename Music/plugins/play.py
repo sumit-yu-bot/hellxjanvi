@@ -35,7 +35,7 @@ async def play_music(_, message: Message, context: dict):
             await db.update_user(user_id, "user_name", user_name)
         except:
             pass
-    hell = await message.reply_text("Processing ...")
+    hell = await message.reply_text("✨")
     # initialise variables
     video, force, url, tgaud, tgvid = context.values()
     play_limit = formatter.mins_to_secs(f"{Config.PLAY_LIMIT}:00")
