@@ -1,4 +1,4 @@
-class TEXTS:
+ᴏclass TEXTS:
     ABOUT_SONG = (
         "**💬 Title:** __{0}__ \n\n"
         "**📺 Channel:** __{1}__ \n"
@@ -19,7 +19,7 @@ class TEXTS:
     BOOTED = (
         "#START\n\n"
         "**{0} is alive!**\n\n"
-        "__» Hell-Music Version:__ `{1}`\n"
+        "__» ᴊᴀɴᴠɪ-Music Version:__ `{1}`\n"
         "__» Python Version:__ `{2}`\n"
         "__» Pyrogram Version:__ `{3}`\n"
         "__» PyTgCalls Version:__ `{4}`\n\n"
@@ -32,10 +32,15 @@ class TEXTS:
         "**🎶 VC Ping:** __{2} ms__"
     )
     PLAYING = (
-        "**❆** {0}\n\n"
-        "**♪ Song Name:** __{1}__\n"
-        "**♪ Duration:** __{2}__\n"
-        "**♪ Auxed By:** {3}"
+        "**❆
+            ┏━━━━━━━━━━━━━━━━⧫
+            ┠ 🀄 Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ°
+            ┗━━━━━━━━━━━━━━━━⧫** {0}\n\n"
+        "**➻sᴏɴɢ💫** __{1}__\n"
+        "**◆ 
+            ╰ ᴅᴜʀᴀᴛɪᴏɴ »** __{2}__\n"
+        "**◆ 
+            ╰ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ »** {3}"
     )
     PROFILE = (
         "**{0}\nUser Profile**\n\n"
@@ -48,16 +53,20 @@ class TEXTS:
         "**❆** {7}"
     )
     QUEUE = (
-        "**Added to Queue (#{0})** \n\n"
-        "**» Song Name:** __{1}__\n"
-        "**» Duration:** __{2}__\n"
-        "**» Queued By:** {3}"
+        "** ┏━━━━━━━━━━━━━━━━⧫
+            ┠ 🀄 Aᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ °
+            ┗━━━━━━━━━━━━━━━━⧫(#{0})** \n\n"
+        "**➻sᴏɴɢ💫:** __{1}__\n"
+        "**◆ 
+            ╰ ᴅᴜʀᴀᴛɪᴏɴ »** __{2}__\n"
+        "**◆ 
+            ╰ ǫᴜᴇᴜᴇᴅ ʙʏ »** {3}"
     )
     SONG_CAPTION = (
-        "**⊸ Title:** [{0}]({1})\n\n"
-        "**⊸ Views:** {2}\n"
-        "**⊸ Duration:** {3}\n"
-        "**⊸ Requested By:** {4}\n\n"
+        "**⊸ ᴛɪᴛʟᴇ:** [{0}]({1})\n\n"
+        "**⊸ ᴠɪᴇᴡs:** {2}\n"
+        "**⊸ ᴅᴜʀᴀᴛɪᴏɴ:** {3}\n"
+        "**⊸ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {4}\n\n"
         "**❆** {5}"
     )
     SOURCE = (
@@ -95,7 +104,7 @@ class TEXTS:
         "**</>** {5}"
     )
     HELP_ADMIN = (
-        "**Authorized Users Commands:**\n\n"
+        "**Aᴜᴛʜ Usᴇʀ Cᴍᴅs:**\n\n"
         "**» /auth ; /unauth**\n"
         "    __Authorize or unauthorize user to use admins command such as /skip, /pause, etc.__\n\n"
         "**» /authlist**\n"
@@ -120,7 +129,7 @@ class TEXTS:
         "    __Clear the queue when bot seems to be bugged.__\n\n"
     )
     HELP_USER = (
-        "**Normal Users Commands:**\n\n"
+        "**ɴᴏʀᴍᴀʟ ᴜsᴇʀ.ᴄᴍᴅs:**\n\n"
         "**» /play ; /vplay**\n"
         "    __Play replied audio/video file or youtube video or searched query on voice chat.__\n\n"
         "**» /fplay ; /fvplay**\n"
@@ -141,7 +150,7 @@ class TEXTS:
         "    __Show your profile and stats.__\n\n"
     )
     HELP_SUDO = (
-        "**Sudo Users Commands:**\n\n"
+        "**Sᴜᴅᴏ:**\n\n"
         "**» /active**\n"
         "    __Check active voice chats of the bot.__\n\n"
         "**» /autoend**\n"
@@ -164,7 +173,7 @@ class TEXTS:
         "    __Show full stats of the bot.__\n\n"
     )
     HELP_OTHERS = (
-        "**Other Commands:**\n\n"
+        "**Oᴛʜᴇʀ:**\n\n"
         "**» /start**\n"
         "    __Check if the bot is alive.__\n\n"
         "**» /ping**\n"
@@ -177,7 +186,7 @@ class TEXTS:
         "    __Show the top 10 users with most number of songs played.__\n\n"
     )
     HELP_OWNERS = (
-        "**Owner Commands:**\n\n"
+        "**Oᴡɴᴇʀ:**\n\n"
         "**» /eval ; /run**\n"
         "    __Execute the python script.__\n\n"
         "**» /exec ; /term ; /sh**\n"
@@ -194,22 +203,22 @@ class TEXTS:
         "__Click the button below!__"
     )
     HELP_PM = (
-        "**Help ⚙️**\n\n"
+        "**Hᴇʟᴘ⚙**\n\n"
         "__» All commands are categorized based on their usability and target users.__\n"
         "__» You can use these buttons below to navigate each category and get respective commands.__\n"
         "__» Feel free to contact us if you need any help regarding the bot.__\n\n"
         "❤️🎶 {0}"
     )
     START_GC = (
-        "Yeah, I'm alive! "
-        "__Wanna listen to some music?__"
+        "ʏᴇᴀʜ, ɪ ᴀᴍ ᴀʟɪᴠᴇ !</> "
+        "__ᴘʟᴀʏ sᴏᴍᴇᴛʜɪɴɢ ɪɴᴛʀᴇsᴛɪɴɢ<!>?__"
     )
     START_PM = (
-        "**Hello there** {0}**!**\n\n"
-        "**I'm** {1} **, a music bot that can play music on Voice Chats.**\n"
-        "**Add me to your group and play music freely!**\n\n"
-        "__» Feel free to dive in, try different commands, and have fun discovering all the possibilities!__\n"
-        "__» Enjoy the music and let us know if you have any suggestions for improvement.__\n\n"
-        "❤️🎶 @{2}"
+        "**Hɪᴇ** {0}**!**\n\n"
+        "**ɪ ,ᴀᴍ** {1} **, ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴄ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs .**\n"
+        "**𝙰ᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ !**\n\n"
+        "__➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs</>!__\n"
+        "__➻ ғᴇᴇʟ ᴛʜᴇ ᴍᴜsɪᴄ ᴠɪʙᴇs ᴀɴᴅ ᴇɴᴏᴊʏ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅs...__\n\n"
+        "≧◉◡◉≦ᴍᴀᴅᴇ ʙʏ sᴜᴍɪᴛ  @{2}"
     )
-    PERFORMER = "[ †hê Hêllẞø† ]"
+    PERFORMER = "[ ᴛʜᴇ sᴜᴍɪᴛ  ]"
