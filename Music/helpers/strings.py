@@ -32,8 +32,7 @@ class TEXTS:
         "**🎶 VC Ping:** __{2} ms__"
     )
     PLAYING = (
-        "**{0}**\n"
-        "**◆┏━━━━━━━━━━━━━━━━⧫ \n┠ 🀄 Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ° \n┗━━━━━━━━━━━━━━━━⧫**\n\n"
+        "**┏━━━━━━━━━━━━━━━━⧫ \n┠ 🀄{0} Sᴛᴀʀᴛᴇᴅ Pʟᴀʏɪɴɢ° \n┗━━━━━━━━━━━━━━━━⧫**\n\n"
         "**◆\n╰sᴏɴɢ💫** {1}\n"
         "**◆ \n╰ ᴅᴜʀᴀᴛɪᴏɴ »**{2}\n"
         "**◆ \n╰ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ »** {3}"
@@ -49,8 +48,7 @@ class TEXTS:
         "**❆** {7}"
     )
     QUEUE = (
-        "**(#{0})**\n"
-        "** ┏━━━━━━━━━━━━━━━━⧫ \n ┠ 🀄 Aᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ° \n ┗━━━━━━━━━━━━━━━━⧫** \n\n"
+        "** ┏━━━━━━━━━━━━━━━━⧫ \n ┠ 🀄 (#{0}) Aᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ° \n ┗━━━━━━━━━━━━━━━━⧫** \n\n"
         "**➻sᴏɴɢ💫:** __{1}__\n"
         "**◆\n╰ ᴅᴜʀᴀᴛɪᴏɴ »** __{2}__\n"
         "**◆\n ╰ ǫᴜᴇᴜᴇᴅ ʙʏ »** {3}"
@@ -64,12 +62,12 @@ class TEXTS:
     )
     SOURCE = (
         "**Source 📦:**\n\n"
-        "**Note:** \n__» The source code is available on GitHub. You can find the link below.__\n"
-        "__» Every project available under The-HellBot are open-source and free to use and modify to your needs.__\n"
-        "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
-        "__» Please consider giving a star to the repository if you liked the project.__\n"
-        "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-        "❤️🎶 {0}"
+        "**Note:** \n ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴄ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs .**\n"
+        "**𝙰ᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ !**\n\n"
+        "➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs</>!__\n"
+        "➻ ғᴇᴇʟ ᴛʜᴇ ᴍᴜsɪᴄ ᴠɪʙᴇs ᴀɴᴅ ᴇɴᴏᴊʏ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅs...__\n\n"
+        "≧◉◡◉≦ᴍᴀᴅᴇ ʙʏ sᴜᴍɪᴛ\n• @{2} •"
+        "🎶 {0}"
     )
     STATS = (
         "**⤞ Server Stats:**\n"
@@ -210,8 +208,8 @@ class TEXTS:
         "**Hɪᴇ** {0}**!**\n\n"
         "**ɪ ,ᴀᴍ** {1} **, ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴄ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴀᴍᴀᴢɪɴɢ ғᴇᴀᴛᴜʀᴇs .**\n"
         "**𝙰ᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ !**\n\n"
-        "__➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs</>!__\n"
-        "__➻ ғᴇᴇʟ ᴛʜᴇ ᴍᴜsɪᴄ ᴠɪʙᴇs ᴀɴᴅ ᴇɴᴏᴊʏ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅs...__\n\n"
-        "≧◉◡◉≦ᴍᴀᴅᴇ ʙʏ sᴜᴍɪᴛ\n• @{2} •"
+        "➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs</>!__\n"
+        "➻ ғᴇᴇʟ ᴛʜᴇ ᴍᴜsɪᴄ ᴠɪʙᴇs ᴀɴᴅ ᴇɴᴏᴊʏ ᴡɪᴛʜ ʏᴏᴜʀ ғʀɪᴇɴᴅs...__\n\n"
+        "◉◡◉ᴍᴀᴅᴇ ʙʏ sᴜᴍɪᴛ\n• @{2} •"
     )
     PERFORMER = "[ ᴛʜᴇ sᴜᴍɪᴛ  ]"
