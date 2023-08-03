@@ -208,7 +208,7 @@ class MakeButtons:
                 self.ikb(text="sᴏᴜʀᴄᴇ 📦", url="https://t.me/ab_sumit"),
             ],
             [
-                self.ikb(text="Under belly Bot Network { 🇮🇳 }", url="https://t.me/ab_sumit"),
+                self.ikb(text=" Bᴇʟʟʏ Bᴏᴛs{ 🇮🇳 }", url="https://t.me/ab_sumit"),
             ],
             [
                 self.ikb(text="Sᴜᴘᴘᴏʀᴛ 🎙️", url="https://t.me/society_chatting"),
@@ -265,7 +265,7 @@ class MakeButtons:
                 self.ikb(text="Oᴛʜᴇʀs", callback_data="help|others"),
             ],
             [
-                self.ikb(text="Dᴀᴅᴅʏ", callback_data="help|owner"),
+                self.ikb(text="Dᴀᴅᴅʏ Cᴍᴅs", callback_data="help|owner"),
             ],
             [
                 self.ikb(text="Bᴀᴄᴋ", callback_data="help|start"),
