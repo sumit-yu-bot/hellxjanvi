@@ -26,7 +26,7 @@
 		},
 		"BOT_NAME": {
 			"description": "Name of bot to display on Thumbnail. Don't use fancy texts. Use plain text only.",
-			"value": "@Music_HellBot"
+			"value": "JANVI x MUSIC"
 		},
 		"BOT_TOKEN": {
 			"description": "Make a bot from @BotFather and paste the bot token here.",
