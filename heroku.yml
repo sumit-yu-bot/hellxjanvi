@@ -1,5 +1,5 @@
 build:
   docker:
-    worker: Dockerfile
+    worker: StartMusic
 run:
-  worker: bash start
+  worker: bash StartMusic
