@@ -68,9 +68,9 @@ class Player:
         else:
             try:
                 if edit:
-                    await message.edit_text("Downloading ...")
+                    await message.edit_text("⚡")
                 else:
-                    await message.reply_text("Downloading ...")
+                    await message.reply_text("⚡")
                 file_path = await ytube.download(
                     video_id, True, True if vc_type == "video" else False
                 )
@@ -165,7 +165,7 @@ class Player:
         )
 
     async def skip(self, chat_id: int, message: Message):
-        await message.edit_text("Skipping ...")
+        await message.edit_text("Skipping ..jldi wha se hato")
         await hellmusic.change_vc(chat_id)
         await message.delete()
 
